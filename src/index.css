@@ -1,0 +1,74 @@
+/* Global Reset and Base Styles */
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  line-height: 1.5;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Remove default focus styles to use our custom ones */
+*:focus {
+  outline: none;
+}
+
+/* Improve button defaults */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Improve form element defaults */
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Improve link defaults */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Improve list defaults */
+ul, ol {
+  list-style: none;
+}
+
+/* Improve table defaults */
+table {
+  border-collapse: collapse;
+}
+
+/* Remove default margins from headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+/* Remove default paragraph margins */
+p {
+  margin: 0;
+}
+
+/* Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
